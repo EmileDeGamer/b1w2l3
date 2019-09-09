@@ -21,8 +21,6 @@ let hoeveelheid = prompt('Hoeveel keer?', 'Hoeveelheid')
 tafels(tafel, hoeveelheid)
 function tafels(tafel, hoeveelheid) {
     for (let hoeveelheidT = 0; hoeveelheidT <= hoeveelheid; hoeveelheidT++) {
-        //const element = array[hoeveelheidT];
-        
         let antwoord = tafel * hoeveelheidT
         document.write(tafel + ' * ' + hoeveelheidT + ' = ' + antwoord + '\n')
     }
