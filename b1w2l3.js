@@ -1,3 +1,5 @@
+//Emile Mol
+//Applicatie en Media Ontwikkelaar
 let ui = prompt('Vul getal in', 'Getal')
 test(12, ui)
 function test(getal, getal2) {
@@ -15,7 +17,7 @@ function test(getal, getal2) {
     getal = getal -= 12
     document.write(tempGetal + ' - 12 = ' + getal + '\n')
 }
-
+/*
 let tafel = prompt('Welke tafel?', 'Tafel')
 let hoeveelheid = prompt('Hoeveel keer?', 'Hoeveelheid')
 tafels(tafel, hoeveelheid)
@@ -24,4 +26,4 @@ function tafels(tafel, hoeveelheid) {
         let antwoord = tafel * hoeveelheidT
         document.write(tafel + ' * ' + hoeveelheidT + ' = ' + antwoord + '\n')
     }
-}
+}*/
